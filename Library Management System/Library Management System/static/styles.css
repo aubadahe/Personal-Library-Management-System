@@ -45,3 +45,13 @@ button:hover {
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+/* New styles for Edit and Delete buttons */
+.edit-button {
+    background-color: yellow;
+    color: black;
+}
+.delete-button {
+    background-color: red;
+    color: white;
+}

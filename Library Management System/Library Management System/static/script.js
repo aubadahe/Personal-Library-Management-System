@@ -25,7 +25,11 @@ async function loadBooks() {
     booksList.innerHTML = books
         .map(
             (book) =>
-                `<li><strong>${book.title}</strong> by ${book.author} (${book.year}) - ${book.genre}</li>`
+                `<li>
+                    <strong>${book.title}</strong> by ${book.author} (${book.year}) - ${book.genre}
+                    <button class="edit-button" onclick="editBook(${book.id})">Edit</button>
+                    <button class="delete-button" onclick="deleteBook(${book.id})">Delete</button>
+                </li>`
         )
         .join("");
 }
