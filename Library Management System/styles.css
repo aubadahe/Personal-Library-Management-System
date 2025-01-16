@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+#form-container {
+    margin: 20px auto;
+    max-width: 400px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#books-list {
+    list-style: none;
+    padding: 0;
+}
+#books-list li {
+    padding: 10px;
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
